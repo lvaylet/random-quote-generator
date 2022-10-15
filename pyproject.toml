@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "random-quote-generator-2xb3"
+version = "0.1.0"
+description = "A random quote generator"
+authors = ["Laurent VAYLET <laurent.vaylet@gmail.com>"]
+readme = "README.md"
+packages = [{include = "random_quote_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
